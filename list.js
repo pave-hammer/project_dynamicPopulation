@@ -13,12 +13,14 @@ function getDetails() {
         {name: 'Meg (no one cares)', age: 15, job: "Taking an emotional and mental beating, on the daily. Poor girl.", image: './images/meg.jpg'}
     ]
 
+    var similar = document.getElementsByTagName()
+
     for (let i = 0; i < familyGuy.length; i++) {
         var details = `
-        <tag>${familyGuy[i].name}</tag>
-        <tag>${familyGuy[i].age}</tag>
-        <tag>${familyGuy[i].job}</tag>
-        <tag>${familyGuy[i].image}</tag>
+        <card-title>${familyGuy[i].name}</card-title>
+        <card-age>${familyGuy[i].age}</tag>
+        <card-text>${familyGuy[i].job}</tag>
+        <card-img-top>${familyGuy[i].image}</tag>
         `
     }
 }
