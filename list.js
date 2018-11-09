@@ -1,6 +1,6 @@
 
 var familyGuy = [
-    {whatever: 'Peter Griffin', age: 45, job: "Works at a brewery. Pawtucket to be exact.", image: 'peter.jpg'},
+    {name: 'Peter Griffin', age: 45, job: "Works at a brewery. Pawtucket to be exact.", image: 'peter.jpg'},
     {name: 'Lois Griffin', age: 39, job: "Stay-at-home mom. Helps to recover bad habits Peter instills on his kin.", image: 'lois.jpg'},
     {name: 'Chris Griffin', age: 16, job: "Student. Not the brightest tool in the shed, but he has a growth mindset.", image: 'chris.jpg'},
     {name: 'Stewie Griffin', age: 1, job: "The brains of the operation. We're not sure if people understand him, but he understands people.", image: 'stewie.jpg'},
@@ -11,6 +11,7 @@ var familyGuy = [
     {name: 'Mort Goldman', age: 45, job: "Professional Jew.", image: 'mort.jpg'},
     {name: 'Meg (no one cares)', age: 15, job: "Taking an emotional and mental beating, on the daily. Poor girl.", image: 'meg.jpg'}
 ]
+
 var main = document.getElementById('main');
 for (var i = 0; i < familyGuy.length; i++){
     
@@ -33,9 +34,9 @@ for (var i = 0; i < familyGuy.length; i++){
     addJob.innerHTML = (familyGuy[i].job);
     addImg.src = (familyGuy[i].image);
     
+    cardBody.appendChild(addName);
     cardBody.appendChild(addAge);
     cardBody.appendChild(addJob);
-    cardBody.appendChild(addName);
     card.appendChild(addImg);
     card.appendChild(cardBody);
     main.appendChild(card)

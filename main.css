@@ -1,17 +1,19 @@
-/* 
-body {
 
+.container {
+    background-color: lightgray;
 }
-
-header {
-
-}
-
-footer {
-
-} */
 
 .nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex-flow: 1 1 auto;
 }
