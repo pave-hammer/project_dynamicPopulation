@@ -2,7 +2,7 @@
 var familyGuy = [
     {name: 'Peter Griffin', age: 45, job: "Works at a brewery. Pawtucket to be exact.", image: 'peter.jpg'},
     {name: 'Lois Griffin', age: 39, job: "Stay-at-home mom. Helps to recover bad habits Peter instills on his kin.", image: 'lois.jpg'},
-    {name: 'Chris Griffin', age: 16, job: "Student. Not the brightest tool in the shed, but he has a growth mindset.", image: 'chris.jpg'},
+    {name: 'Chris Griffin', age: 16, job: "Student. Not the brightest tool in the show, but he has a growth mindset.", image: 'chris.jpg'},
     {name: 'Stewie Griffin', age: 1, job: "The brains of the operation. We're not sure if people understand him, but he understands people.", image: 'stewie.jpg'},
     {name: 'Brian Griffin', age: 3, job: "Smarter than most humans in the show. Still has the occasional pee problem.", image: 'brian.jpg'},
     {name: 'Glen Quagmire', age: 38, job: "Professional womanizer. Might be best friends with Judge Kavanaugh.", image: 'quagmire.jpg'},
